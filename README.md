@@ -45,8 +45,43 @@ Provide a brief overview of how to use the solution  -->
 
 ## Installation
 
-How to install or setup the project for use.
+1. **Get your own Copy.** Make a copy of [this spreadsheet](https://docs.google.com/spreadsheets/d/1CVIDrTHx2obz28KkDzgBxAZhc_gEYdYr-Cos9KLIK4k/edit?usp=sharing). Once you open Google Sheets, Click File > Make a copy…
 
+2. **Fill in your info in the userInput tab.** There are several tabs, but start with userInput. In order not to break anything, only change the yellow boxes. Start with your name and email. The other two boxes we'll get to next. 
+
+3. **Get a bot token.** The top box, "Bot's Bearer Token" can be obtained by. 
+   1. Visit https://developer.webex.com/my-apps/new and login with your webex teams account. 
+   2. Select create a bot. 
+   3. Fill in the required fields of Name, username, icon and description. The polls / surveys you send out will come from this bot, so think of a good name and icon to use. 
+   4. Save the bots token back in the google sheet. _Be careful with the token. Anybody who has it can impersonate your bot._
+
+4. **Get the url for your app script.**
+   1. Open the Script editor... by clicking “Tools” > “Script editor...”
+   2. Publish the sheet by clicking "Publish" > "Deploy as a Web App" 
+   3. Select the latest project version to deploy.
+   4. Select "me" (your account) as the "Execute as" dropdown.
+   5. Select the "Anyone, even anonymous option" for the “Who has access to the app” dropdown
+   6. Deploy the app and authorize the application.
+   7. Copy the URL back into "Current web app URL" (you can close the script editor)
+
+5. **Build recipients list on the recipients tab.** This can be done in 2 ways. 
+   * Manually filling in or cutting and pasting the email addresses into column B "Webex Teams Emails". 
+   * Have the users add themselves. From the "Form" menu you can forward the form or get a link to the form where users can add themselves. _NOTE: There is a current limitation that a user added in the middle of a poll will not get new questions._ 
+
+6. **Build the questions tab.** For each question (currently Max 10 questions per poll) you wish to ask as part of the poll / survey fill in columns B through E. 
+   * A. We said B through E, no need to touch A. 
+   * B. The main question you are asking. Something like, "How would you rate your experience?"
+   * C. A description of the possible answers. "A:Awesome, B:Neutral, C:Aweful" _Note: current answers can be EITHER letters or numbers. Fill in the blank will be added later._ 
+   * D. The lowest number or letter that the user can enter. 
+   * E. The highest number or letter that the user can enter. _Note: you will likely have poor results if this value is more than 100 over the "lowest" number._ 
+
+7. **Start your poll.** A new menu "Poll" has been added to the sheet. Select "Start Poll". Once selected, each recipient will receive the fist question, and if there are subsequent questions, they will get them right after completing the previous.  Each question will go out sequentially to the users. 
+
+8. **Watch the results.** Raw data of each response can be found on the "responses" tab and on the "dataStorage" tab you can find aggregate info as well as pre-created charts (you may have to scroll down to see all charts). All data and charts will live update as new responses come in. 
+
+9. **End poll.** From the "Poll" menu select "Stop Poll". _Note: Once the poll has been stopped, the bot will no longer take any communication (its webhook is deleted). Also, for your next poll, you can skip right to step 5 (or 6 if your recipients are the same)._ 
+
+  
 
 ## Documentation
 

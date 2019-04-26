@@ -27,23 +27,8 @@ Our solution will leverage the following technologies
 * Chris Norman <christno@cisco.com> - Enterprise
 
 
-## Solution Components
 
-
-<!-- This does not need to be completed during the initial submission phase  
-
-Provide a brief overview of the components involved with this project. e.g Python /  -->
-
-
-## Usage
-
-<!-- This does not need to be completed during the initial submission phase  
-
-Provide a brief overview of how to use the solution  -->
-
-
-
-## Installation
+## Installation & Usage
 
 1. **Get your own Copy.** Make a copy of [this spreadsheet](https://docs.google.com/spreadsheets/d/1CVIDrTHx2obz28KkDzgBxAZhc_gEYdYr-Cos9KLIK4k/edit?usp=sharing). Once you open Google Sheets, Click File > Make a copy…
 
@@ -82,10 +67,6 @@ Provide a brief overview of how to use the solution  -->
 9. **End poll.** From the "Poll" menu select "Stop Poll". _Note: Once the poll has been stopped, the bot will no longer take any communication (its webhook is deleted). Also, for your next poll, you can skip right to step 5 (or 6 if your recipients are the same)._ 
 
   
-
-## Documentation
-
-Pointer to reference documentation for this project.
 
 
 ## License

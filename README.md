@@ -5,7 +5,7 @@ Base code for building WebEx Teams Bot hosted inside G suite using Google App Sc
 
 ## Business/Technical Challenge
 
-We often hear that when creating simple WebEx teams bots, where to host the code and how to make it accessible can be slow down projects before they even get started. In today's world everybody has a google account. The goal is to show hoe easy it is to host the code inside of a google document. We'll show that google sheets can be a very workable database for your code along with hosting the application itself. As well, one of our peers created an awesome polling tool, but the tool died when he left Cisco, so why not rebuild it.
+We often hear that when creating simple WebEx teams bots, where to host the code and how to make it accessible can be slow down projects before they even get started. In today's world everybody has a google account. The goal is to show how easy it is to host the code inside of a google document. We'll show that google sheets can be a very workable database for your code along with hosting the application itself. As well, one of our peers created an awesome polling tool, but the tool died when he left Cisco, so why not rebuild it.
 
 ## Proposed Solution
 

@@ -9,7 +9,9 @@ We often hear that when creating simple WebEx teams bots, where to host the code
 
 ## Proposed Solution
 
-We were inspired by [this article on building a Viber bot without code](https://developers.viber.com/blog/2017/09/12/build-a-bot-with-zero-coding) and want to take what [Itamar Mula](https://github.com/ItamarM) created and bring it to Webex Teams. For some this will be a simple poll bot they can use, but for others this will be the base of how to host a bot inside a g-suite document. Stretch goals include taking it further turning the first bot into a live polling tool that might be a simple version of what [Kahoot](https://getkahoot.com/) or [Poll Everywhere](https://www.polleverywhere.com/) do (using Google Slides). Beyond that, once buttons and cards come to Webex Teams we'll want to have those as ways for people to respond to polls.
+We were inspired by [this article on building a Viber bot without code](https://developers.viber.com/blog/2017/09/12/build-a-bot-with-zero-coding) and want to take what [Itamar Mula](https://github.com/ItamarM) created and bring it to Webex Teams. For some this will be a simple poll bot they can use, but for others this will be the base of how to host a bot inside a g-suite document. Stretch goals include taking it further turning the first bot into a live polling tool that might be a simple version of what [Kahoot](https://getkahoot.com/) or [Poll Everywhere](https://www.polleverywhere.com/) do (using Google Slides). Now that buttons and cards are in Webex Teams, that's another way to respond(see image). 
+
+![button image](https://github.com/stgreenb/gat-bot/blob/master/gat_with_buttons_and_card.jpg?raw=true)
 
 
 ### Products Technologies/ Services

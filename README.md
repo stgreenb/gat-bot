@@ -32,7 +32,7 @@ Our solution will leverage the following technologies
 
 ## Installation & Usage
 
-1. **Get your own Copy.** Make a copy of ~~[this spreadsheet](https://docs.google.com/spreadsheets/d/1CVIDrTHx2obz28KkDzgBxAZhc_gEYdYr-Cos9KLIK4k/edit?usp=sharing).~~ Now that Buttons & Cards is live use this [version instead](https://docs.google.com/spreadsheets/d/1ctIERb1yyptzXdIyQk-4RNt3cNvcHoNmH6HYrgzjhqQ/edit?usp=sharing). Once you open Google Sheets, Click File > Make a copy…
+1. **Get your own Copy.** Make a copy of [this spreadsheet](https://docs.google.com/spreadsheets/d/1ctIERb1yyptzXdIyQk-4RNt3cNvcHoNmH6HYrgzjhqQ/edit?usp=sharing). Now with Buttons & Cards! Once you open Google Sheets, Click File > Make a copy…
 
 2. **Fill in your info in the userInput tab.** There are several tabs, but start with userInput. In order not to break anything, only change the yellow boxes. Start with your name and email. The other two boxes we'll get to next. 
 
